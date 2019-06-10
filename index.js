@@ -29,20 +29,3 @@ if (program.get === "process") {
     require("./src/process/get-process-by-search-key")();
   }
 }
-
-// "pid": 19484,
-// "parentPid": 39884,
-// "name": "WMIC.exe",
-// "pcpu": 0.000019252274391500584,
-// "pcpuu": 0.000009626137195750292,
-// "pcpus": 0.000009626137195750292,
-// "pmem": 0.12853321319498087,
-// "priority": 8,
-// "mem_vsz": 2372,
-// "mem_rss": 10636,
-// "nice": 0,
-// "started": "2019-06-10 21:30:58",
-// "state": "unknown",
-// "tty": "",
-// "user": "",
-// "command": "C:\\Windows\\system32\\wbem\\wmic.exe  process get /value"
