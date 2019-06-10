@@ -1,13 +1,13 @@
-# sysinf
+# syscli
 
 ## System Information View and Search
 
-![Preview](https://github.com/aykutkardas/sysinf/blob/master/sysinf_preview.gif?raw=true)
+![Preview](https://github.com/aykutkardas/syscli/blob/master/syscli_preview.gif?raw=true)
 
 
 ### Install
 ```sh
-npm install sysinf -g
+npm install syscli -g
 ```
 
 ### Help
@@ -25,14 +25,14 @@ Options:
 
 ### All Process and Limit Usage
 ```
-sysinf --get process --all --limit 3
+syscli --get process --all --limit 3
 # or
-sysinf -g process -a -l 3
+syscli -g process -a -l 3
 ```
 
 ### Output
 ```
-sysinf System Information View and Search
+syscli System Information View and Search
 
 Showing 3 out of 227 results.
 
@@ -49,14 +49,14 @@ ___
 ### Search Process And Limit Usage
 
 ```
-sysinf --get process --search node --limit 3
+syscli --get process --search node --limit 3
 # or
-sysinf -g process -s node -l 3
+syscli -g process -s node -l 3
 ```
 
 ### Output
 ```
-sysinf System Information View and Search
+syscli System Information View and Search
 
 Showing 3 out of 12 results.
 
@@ -74,14 +74,14 @@ ___
 
 ### Usage
 ```
-sysinf --get process --pid 38480
+syscli --get process --pid 38480
 # or
-sysinf -g process -p 38480
+syscli -g process -p 38480
 ```
 
 ### Output
 ```
-sysinf System Information View and Search
+syscli System Information View and Search
 
 +-------+----------+----------+---------------------+
 | Pid   | Name     | Priority | Started             |

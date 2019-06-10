@@ -18,7 +18,7 @@ program
   .option("-s, --search [key]", "Search in Process List")
   .parse(process.argv);
 
-term.bold.red("\nsysinf ")("System Information View and Search\n\n");
+term.bold.red("\nsyscli ")("System Information View and Search\n\n");
 
 if (program.get === "process") {
   if (program.pid) {

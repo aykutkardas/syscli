@@ -1,5 +1,5 @@
 {
-  "name": "sysinf",
+  "name": "syscli",
   "version": "0.0.1",
   "description": "System Information View and Search",
   "main": "index.js",
@@ -15,7 +15,7 @@
     "process"
   ],
   "bin": {
-    "sysinf": "./index.js"
+    "syscli": "./index.js"
   },
   "author": "Aykut Kardaş",
   "license": "ISC",
