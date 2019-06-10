@@ -2,7 +2,7 @@
 
 ## System Information View and Search
 
-![Preview](https://github.com/aykutkardas/syscli/blob/master/syscli_preview.gif?raw=true)
+![Preview](https://github.com/aykutkardas/syscli/blob/master/syscli-preview.gif?raw=true)
 
 
 ### Install
