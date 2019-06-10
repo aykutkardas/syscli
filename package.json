@@ -1,0 +1,28 @@
+{
+  "name": "sysinf",
+  "version": "0.0.1",
+  "description": "System Information View and Search",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "system",
+    "information",
+    "terminal",
+    "cpu",
+    "cli",
+    "process"
+  ],
+  "bin": {
+    "sysinf": "./index.js"
+  },
+  "author": "Aykut Kardaş",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.20.0",
+    "systeminformation": "^4.9.0",
+    "terminal-kit": "^1.28.0",
+    "terminal-table": "0.0.12"
+  }
+}
